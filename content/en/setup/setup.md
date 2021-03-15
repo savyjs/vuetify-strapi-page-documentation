@@ -17,20 +17,20 @@ you should install and config vuetify and axios before using this module.
 
 ##  Installation
 
-Add `vuetify-strapi-dashboard` dependency to your project:
+Add `vuetify-strapi-page` dependency to your project:
 
 <code-group>
   <code-block label="Yarn" active>
 
   ```bash
-  yarn add vuetify-strapi-dashboard
+  yarn add vuetify-strapi-page
   ```
 
   </code-block>
   <code-block label="NPM">
 
   ```bash
-  npm install vuetify-strapi-dashboard
+  npm install vuetify-strapi-page
   ```
 
   </code-block>
@@ -51,13 +51,6 @@ Then add `vuetify-strapi-dashboard` to the `modules` in `nuxt.config.js`:
           element: '/elements',
           record: '/records',
         },
-        apiListHelper: require('./modules/crypto/api').default,
-        apiEditHelper: require('./modules/crypto/api').default,
-        apiShowHelper: require('./modules/crypto/api').default,
-        validations: require('./modules/crypto/validations').default,
-        config: require('./modules/crypto/config').default,
-        settings: require('./modules/crypto/settings').default,
-        menu: require('./modules/crypto/menu').default
       }
     ]
   ],
