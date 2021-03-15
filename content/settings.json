@@ -1,0 +1,10 @@
+{
+  "title": "Vuetify Strapi Page",
+  "url": "vsp.savyjs.com",
+  "logo": {
+    "light": "/text-logo.png",
+    "dark": "/text-logo.png"
+  },
+  "github": "savyjs/vuetify-strapi-page-documentation",
+  "twitter": "@ehsant_"
+}
