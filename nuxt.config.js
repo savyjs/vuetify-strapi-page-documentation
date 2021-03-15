@@ -11,7 +11,7 @@ export default theme({
         id: 'UA-104158634-1'
     },
     server: {
-        port: 8150
+        port: 8250
     },
     docs: {
         primaryColor: '#e261d1'
